@@ -1,0 +1,79 @@
+*{font-family: 'Kanit', sans-serif;}
+
+.header-section{display: flex;justify-content:space-around;padding-left: 100px;padding-right: 100px; gap:20px; padding-top: 100px; background-color: #e5547325;}
+.banner{width: 40%;}
+.banner-img{width: 70%;}
+.banner-title{font-size: 80px; line-height: 30px;}
+.banner-text{font-size: 16px; padding-top: 20px; color: cadetblue;}
+.banner-btn{background-color: rgb(216, 84, 106); margin-bottom: 20px;margin-top: 5px; border-radius: 5px; color: white;
+    font-size: 18px;
+    font-weight:700;
+    border: 0;
+    padding: 8px 40px;
+    height: 64px;}
+
+
+
+
+
+
+/* THis is the best aligned set of css that I wrote, use this format to align the images and the background, the centerness. this one also shows how I made the double image background
+Playing with the top and botton padding makes the alignment perfect. The width of the image set can helpl make the image be sized */
+.feature-text{text-align: center; margin-top: 100px;}
+.feature-title{font-size: 35px;}
+.feature-passage{font-size: 16px; padding-top: 0px; color: cadetblue; padding:0px 660px;}
+.flower-trio{display: flex;justify-content: space-around; margin-right: 300px;margin-left: 300px;}
+.flower-column{text-align: center;padding-top: 40px;}
+.flower{width: 300px;padding-top: 81px;padding-left: 50px;padding-right: 50px;background-color: rgb(231, 145, 181);border-top-left-radius:200px ;border-top-right-radius:200px ;}
+.flower-c{width: 300px;padding-bottom: 85px;padding-top: 110px;padding-left: 50px;padding-right: 50px;background-color: rgb(255, 192, 218);border-top-left-radius:200px ;border-top-right-radius:200px ;}
+.flower-r{width: 300px;padding-top: 45px;padding-left: 50px;padding-right: 50px;background-color: rgb(192, 255, 211);border-top-left-radius:200px ;border-top-right-radius:200px ;}
+/* Try to revise this block of code for future reference */
+
+
+
+/* delivery  */
+.delivery-info{display: flex;justify-content: space-around; margin-right: 300px;margin-left: 300px; padding-top: 10px ; padding-bottom:10px; background-color: #e5547325 ;margin-top: 150px; margin-bottom: 150px;}
+.delivery-column{text-align: center;padding-top: 60px;}
+
+
+
+/* hot-deals */
+.hot-deals{display: flex;justify-content: space-around;background-color:#e5547325 ;margin-top: 100px;padding-right: 400px;padding-left: 400px;gap:80px;margin-bottom: 20px;}
+.deal-column{text-align: center;padding-left: 40px;padding-right: 40px;padding-bottom: 50px;}
+.deal-passage{font-size: 16px; padding-top: 0px; color: cadetblue;}
+.off{color: rgb(216, 84, 106);}
+.deal-btn{ background-color: rgb(216, 84, 106); color: white;padding:10px 40px;border-radius: 5px;border:0;margin-top: 10px;}
+.left-part{padding-top:140px ;}
+.right-part{padding-top:80px;margin-right:200px ;}
+.deal-img{width: 150%;}
+
+
+
+
+.ig-text{text-align: center;margin-top: 200px;padding-bottom:40px;}
+.ig-images{display: flex; justify-content: space-around; margin-right: 300px;margin-left: 300px; gap:10px;}
+.ig-img{width: 300px;}
+h2{font-size: 35px;}
+
+
+
+/* latest */
+.latest{background-image: url("/flower-shop-assignment/Flower Asset/Rectangle 9.png");margin-right: 300px;margin-left: 300px; padding-top:80px;margin-top:200px;text-align: center;}
+.email-part input[type="email"] {display: block; margin-bottom: 25px; padding: 18px 35px;color: #757575;border-radius: 5px;background: #FFFFFF;border: 0;width:70%;margin-top: 30px;}
+.email-part{display: flex;margin-right: 300px;margin-left: 300px;padding-bottom: 100px;gap: 10px;}
+.latest-passage{font-size: 16px; color: cadetblue;}
+.btn-email{ background-color: rgb(216, 84, 106); color: white; border-radius: 5px; border:0; height: 55px;width: 150px;margin-top:30px;font-size: 18px;}
+
+
+
+
+/* footer */
+.footer{text-align: center;margin-top: 150px;background: black;color: white;padding-top: 70px;padding-bottom: 70px;}
+.footer-text{font-size: 16px;}
+.copy-right{font-size: 13px;padding-top: 20px;color: grey;font-family: sans-serif;}
+.footer-title{font-size: 40px;}
+/* 
+<div class="footer">
+<h2 class="footer-title">FlowerShop</h2>
+<p class="footer-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+<p class="copy-right">@2020-20 */
