@@ -50,7 +50,7 @@ Playing with the top and botton padding makes the alignment perfect. The width o
 
 
 
-.ig-text{text-align: center;margin-top: 200px;padding-bottom:40px;}
+.ig-text{text-align: center;margin-top: 200px;padding-bottom:40px; }
 .ig-images{display: flex; justify-content: space-around; margin-right: 300px;margin-left: 300px; gap:10px;}
 .ig-img{width: 300px;}
 h2{font-size: 35px;}
@@ -73,7 +73,92 @@ h2{font-size: 35px;}
 .copy-right{font-size: 13px;padding-top: 20px;color: grey;font-family: sans-serif;}
 .footer-title{font-size: 40px;}
 /* 
-<div class="footer">
-<h2 class="footer-title">FlowerShop</h2>
-<p class="footer-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-<p class="copy-right">@2020-20 */
+
+
+
+/* Responsive Design */
+
+@media screen and (max-width:576px) 
+{
+    body{display:flex;justify-content:center; align-items: center;padding-top: 100px; background-color: #e5547325; flex-direction: column; padding-top: 0;}
+
+    /* banner */
+    .banner-title{font-size: 50px;line-height: 47px;  margin-bottom: -25px; }
+    .banner-img{width: 220px; margin-top: 180px;}
+    .banner-text{font-size: 16px; padding-top: 20px; color: cadetblue; text-align: left; }
+
+    /* featured flower */
+    .feature-text{text-align: center; margin-top: 100px;}
+    .feature-passage{font-size: 16px; padding-top: 0px; color: cadetblue; padding:0px 660px; width: 300px;}
+    .flower-trio{display: flex;flex-direction: column;justify-content: space-around; margin-right: 300px;margin-left: 300px;}
+    /* this is single handedly the tag that makes the flowers go in a column! good job finding this one! */
+
+    /* delivery section */
+    .delivery-info{display: flex;flex-direction: column;justify-content: space-around; margin-right: 300px;margin-left: 300px; padding-top: 10px ; padding-bottom:10px; background-color: #e5547325 ;margin-top: 150px; margin-bottom: 150px;}
+
+    /* deals section */
+    .hot-deals{display: flex;flex-direction: column;justify-content: center; background-color:#e5547325 ;margin-top: 100px;margin-bottom: 20px;}
+    .deal-passage{font-size: 16px; padding-top: 0px; color: cadetblue; width: 300px;}
+    .deal-img{width: 200px;border: solid red 3px; border-radius: 20px;}
+    .left-part{padding-top:140px ; border: 3px solid red; border-radius: 20px;; align-items: center; align-content: center; display: flex; flex-direction: column;}
+    .right-part{padding-left:230px; padding-top: 0;}
+
+    /* social media */
+    .ig-images{display: flex; justify-content: center;  gap:10px; flex-direction: column; align-items: center; padding-top: 0;margin-top: 0;}
+    .ig-text{text-align: center;margin-top: 120px;padding-bottom:0px; margin-bottom: 0px;justify-content: center;align-items: center;}
+
+    /* email part */
+    .btn-email{ background-color: rgb(216, 84, 106); color: white; border-radius: 5px; border:0; height: 55px;width: 300px;margin-top:30px;font-size: 18px;}
+
+    /* footer section */
+    .footer-text{font-size: 8px; width: auto;}
+    .footer{text-align: center;margin-top: 30px;background: black;color: white;padding-top: 30px;padding-bottom: 70px; display: flex;flex-direction: column;}
+}
+
+/* medium devices */
+@media screen  and (min-width:577px) and (max-width: 1919px )
+{
+    body{display:flex;justify-content:center; align-items: center;padding-top: 100px; background-color: #e5547325; flex-direction: column; padding-top: 0;}
+
+    /* banner */
+    .banner-title{font-size: 50px;line-height: 47px;  margin-bottom: -25px;}
+    .banner-img{width: 500px; margin-top: 180px;}
+    .banner-text{font-size: 16px; padding-top: 20px; color: cadetblue; text-align: left; }
+
+    /* featured flower */
+    .feature-text{text-align: center; margin-top: 100px;}
+    .feature-passage{font-size: 16px; padding-top: 0px; color: cadetblue; padding:0px 660px; width: 300px;}
+    .flower-trio{display: flex;flex-direction: column;justify-content: space-around; margin-right: 300px;margin-left: 300px;}
+    /* this is single handedly the tag that makes the flowers go in a column! good job finding this one! */
+
+
+    /* delivery section */
+    .delivery-info{display: flex;flex-direction: column;justify-content: space-around; margin-right: 300px;margin-left: 300px; padding-top: 10px ; padding-bottom:10px; background-color: #e5547325 ;margin-top: 150px; margin-bottom: 150px;}
+
+    /* deals section */
+    .hot-deals{display: flex;flex-direction: column;justify-content: center; background-color:#e5547325 ;margin-top: 100px;margin-bottom: 20px;}
+    .deal-passage{font-size: 16px; padding-top: 0px; color: cadetblue; width: 300px;}
+    .deal-img{width: 200px;}
+    .left-part{padding-top:140px ; align-items: center; align-content: center; display: flex; flex-direction: column;}
+    .right-part{padding-left:230px; padding-top: 0;}
+
+    /* social media */
+    .ig-images{display: flex; justify-content: center;  gap:10px; flex-direction: column; align-items: center; padding-top: 0;margin-top: 0;}
+    .ig-text{text-align: center;margin-top: 120px;padding-bottom:0px; margin-bottom: 0px; display: flex;flex-direction: column;align-items: center;}
+
+
+    /* email part */
+    .btn-email{ background-color: rgb(216, 84, 106); color: white; border-radius: 5px; border:0; height: 55px;width: 300px;margin-top:30px;font-size: 18px;}
+
+    /* footer section */
+    .footer-text{font-size: 8px; width: auto;}
+    .footer{text-align: center;margin-top: 30px;background: black;color: white;padding-top: 30px;padding-bottom: 70px; display: flex;flex-direction: column;}
+
+
+}
+
+
+
+
+/* BASICALLY SOMETIMES THE PASSAGE WAS NOT GOING TO THE CENTER SO THE WAY TO SOLVE THIS IS MAKING SURE THE TAG IS 
+IN DISPLAY FLEX, THEN YOU MAKE THE TAG FLEX DIRECTION COLUMN< THEN YOU MAKE THE ALIGN-ITEMS: Center!!!!! */
